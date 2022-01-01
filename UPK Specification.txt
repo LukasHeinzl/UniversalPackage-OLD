@@ -1,0 +1,7 @@
+FileTable:
+	3B  Total Entry Count
+	-- Per Entry --
+	2B  File Name Length
+	?B  File Name (max 65535)
+	4B  File Size
+	?B  File Content
